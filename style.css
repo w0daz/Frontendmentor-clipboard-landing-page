@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(images/bg-header-mobile.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+}
+
+.section {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.hero {
+    width: 84.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 55px;
+}
+
+.hero > img {
+    margin: 121px 124px  17px 124px;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.herotext > h1 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.herotext > p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.02em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.herotext > .herobuttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin: 22px 0 0 0;
+}
+
+.herobuttons > button {
+    width: 311px;
+    height: 54px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.herobuttons > button:hover {
+    cursor: pointer;
+}
+
+.herobuttons > .cyan {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.herobuttons > .blue {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.icloud {
+    width: 84.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 166px 0 0 0;
+}
+
+.icloudtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 21px;
+}
+
+.icloudtext > h1 {
+    color: hsl(210, 10%, 33%);
+    font: 600;
+    font-size: 1.8em;
+}
+
+.icloudtext > p {
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+}
+
+.icloudcontainer > img {
+    width: 312px;
+    margin: 68px 0 0 0;
+}
+
+
+.icloudfeatures {
+    margin: 60px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.icloudfeatures > * > .featuresheader {
+    font-size: 1.6em;
+    color: hsl(210, 10%, 33%);
+}
+
+.icloudfeatures > * > .featuresbody {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.accessibility {
+    width: 84.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 187px 0 0 0; 
+}
+
+.accessibilitytext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.accessibilitytext > h1 {
+    color: hsl(210, 10%, 33%);
+    font: 600;
+    font-size: 1.8em;
+}
+
+.accessibilitytext > p {
+    line-height: 1.5;
+    font-size: 0.892em;
+    color: hsl(201, 11%, 66%);
+}
+
+.accessibility > img {
+    width: 312px;
+    margin: 61px 0 0 0;
+}
+
+.workflow {
+    margin: 100px 0 0 0;
+}
+
+.workflowtext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.workflowtext > h1 {
+    color: hsl(210, 10%, 33%);
+    font: 600;
+    font-size: 1.8em;
+}
+
+.workflowtext > p {
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+}
+
+.perks {
+    margin: 93px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.perksitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.perks > * >.perksheader {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 1.56em;
+    margin: 20px 0 0 0;
+}
+
+.perks > * > .perksbody {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+.sponsors {
+    margin: 135px 0 0 0;
+}
+
+.sponsorscontainer {
+    width: 138px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+
+.apps {
+    width: 85%;
+    margin: 177px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.appstext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.appstext > h1 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 1.56em;
+}
+
+.appstext > p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+.buttonsapps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.buttonsapps > button {
+    width: 311px;
+    height: 54px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.buttonsapps > button:hover {
+    cursor: pointer;
+}
+
+.buttonsapps > .cyan {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.buttonsapps > .blue {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.footer {
+    width: 375px;
+    margin: 170px 0 0 0;
+    background-color: hsl(201, 11%, 66%, 17%);
+}
+
+.footer > img {
+    width: 53px;
+    margin: 51px 0 0 0;
+}
+
+.footeroptions {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 26px;
+}
+
+.footeroptions >  p {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.footericons {
+    display: flex;
+    justify-content: center;
+    column-gap: 28px;
+    margin: 55px 0;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        width: 1440px;
+        background-image: url(images/bg-header-desktop.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .section {
+        width: 100dvh;
+    }
+
+    .hero {
+        width: 100%;
+        row-gap: 55px;
+    }
+
+    .hero > img {
+        margin: 100px 124px  17px 124px;
+        width: 120px;
+    }
+
+    .herotext > p {
+        width: 63%;
+    }
+
+    .herotext > .herobuttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+    }
+
+    .herobuttons > button {
+        width: 224px;
+        height: 51px;
+    }
+
+    .icloud {
+        width: 100%;
+        margin: 110px 0 0 0;
+    }
+
+    .icloudtext > p {
+        width: 58%;
+    }
+
+    .icloudcontainer {
+        display: flex;
+        flex-direction: row;
+        transform: translateX(-25%)
+    }
+
+    .icloudfeatures {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        padding: 50px 0 0 130px;
+    }
+
+    .icloudcontainer > img {
+        width: 800px;
+    }
+
+    .features {
+        width: 220%;
+    }
+
+    .icloudfeatures > * > .featuresheader {
+        font-size: 1.3em;
+    }
+
+    .icloudfeatures > * > .featuresbody {
+        font-size: 0.98em;
+        width: 100%;
+    }
+
+    .accessibility {
+        margin: 158px 0 0 0; 
+    }
+
+    .accessibilitytext {
+        width: 59%;
+    }
+    
+    .accessibility > img {
+        width: 800px;
+    }
+    
+    .workflow {
+        margin: 70px 0 0 0;
+    }
+
+    .perks {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 40px;
+        margin: 70px 0 0 0;
+    }
+
+    .perksitem {
+        width: 30%;
+    }
+
+    .sponsors {
+        margin: 135px 0 0 0;
+        width: 100%;
+    }
+
+    .sponsorscontainer {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        place-content: center;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .apps {
+        width: 100%;
+        margin: 135px 0 0 0;
+    }
+    
+    .appstext {
+        width: 57%;
+    }
+
+    .buttonsapps {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+    }
+
+    .buttonsapps > button {
+        width: 224px;
+        height: 51px;
+    }
+
+    .footer {
+        min-height: 150px;
+        width: 145dvh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footeroptions {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 95px;
+       text-align: start;
+    }
+
+    .footer > img {
+        width: 53px;
+        margin-top: 3%;
+    }
+
+    .footericons {
+        margin-top: 5%;
+    }
+
+}
