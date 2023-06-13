@@ -331,7 +331,7 @@ main {
 
 @media only screen and (min-width: 600px) {
     body {
-        min-width: 1440px;
+        min-width: 1300px;
         background-image: url(images/bg-header-desktop.png);
         background-position: top left;
         background-repeat: no-repeat;
@@ -474,11 +474,13 @@ main {
     .footer {
         min-height: 150px;
         min-width: 1440px;
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .footercontainer {
-        width: 90%;
+        width: 88%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
