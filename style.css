@@ -331,7 +331,7 @@ main {
 
 @media only screen and (min-width: 600px) {
     body {
-        min-width: 1300px;
+        /* min-width: 1300px; */
         background-image: url(images/bg-header-desktop.png);
         background-position: top left;
         background-repeat: no-repeat;
