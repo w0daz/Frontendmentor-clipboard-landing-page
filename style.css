@@ -78,7 +78,10 @@ main {
     border: none;
     border-radius: 30px;
     color: #fff;
+    transition: 0.3s;
 }
+
+
 
 .herobuttons > button:hover {
     cursor: pointer;
@@ -86,10 +89,20 @@ main {
 
 .herobuttons > .cyan {
     background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px 0px 0px hsl(171, 67%, 33%);
+}
+
+.herobuttons > .cyan:hover {
+    background-color: hsl(171, 66%, 49%);
 }
 
 .herobuttons > .blue {
     background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px 0px 0px hsl(233, 52%, 54%);
+}
+
+.herobuttons > .blue:hover {
+    background-color: hsl(233, 96%, 72%);
 }
 
 .icloud {
@@ -283,6 +296,7 @@ main {
     border: none;
     border-radius: 30px;
     color: #fff;
+    transition: 0.3s;
 }
 
 .buttonsapps > button:hover {
@@ -291,10 +305,20 @@ main {
 
 .buttonsapps > .cyan {
     background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px 0px 0px hsl(171, 67%, 33%);
+}
+
+.buttonsapps > .cyan:hover {
+    background-color: hsl(171, 66%, 49%);
 }
 
 .buttonsapps > .blue {
     background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px 0px 0px hsl(233, 52%, 54%);
+}
+
+.buttonsapps > .blue:hover {
+    background-color: hsl(233, 96%, 72%);
 }
 
 .footer {
