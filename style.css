@@ -303,7 +303,7 @@ main {
     background-color: hsl(201, 11%, 66%, 17%);
 }
 
-.footer > img {
+.footercontainer > img {
     width: 53px;
     margin: 51px 0 0 0;
 }
@@ -501,6 +501,19 @@ main {
 
     .footericons {
         margin-top: 5%;
+    }
+
+    @media only screen and (min-width: 1440px)  {
+        .footer {
+        min-width: 1440px;
+    }
+
+    }
+
+    @media only screen and (min-width: 1630px) {
+        .footer {
+            width: 1630px;
+        }
     }
 
 }
