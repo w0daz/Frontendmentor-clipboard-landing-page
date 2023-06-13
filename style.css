@@ -474,6 +474,11 @@ main {
     .footer {
         min-height: 150px;
         min-width: 1440px;
+        
+    }
+
+    .footercontainer {
+        width: 90%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -487,7 +492,7 @@ main {
        text-align: start;
     }
 
-    .footer > img {
+    .footercontainer > img {
         width: 53px;
         margin-top: 3%;
     }
